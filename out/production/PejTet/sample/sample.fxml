@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane prefHeight="550.0" prefWidth="550.0" GridPane.rowIndex="1">
+            <children>
+                <Pane layoutX="50.0" layoutY="50.0" prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: coral">
+                    <children>
+                        <Circle fx:id="zero_zero" fill="white" layoutX="30.0" layoutY="30.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="zero_one" fill="white" layoutX="85.0" layoutY="30.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="zero_two" fill="white" layoutX="140.0" layoutY="30.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="zero_three" fill="white" layoutX="195.0" layoutY="30.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="zero_four" fill="white" layoutX="250.0" layoutY="30.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="zero_five" fill="white" layoutX="305.0" layoutY="30.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="zero_six" fill="white" layoutX="360.0" layoutY="30.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="zero_seven" fill="white" layoutX="415.0" layoutY="30.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+
+                        <Circle fx:id="one_zero" fill="white" layoutX="30.0" layoutY="85.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="one_one" fill="white" layoutX="85.0" layoutY="85.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="one_two" fill="white" layoutX="140.0" layoutY="85.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="one_three" fill="white" layoutX="195.0" layoutY="85.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="one_four" fill="white" layoutX="250.0" layoutY="85.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="one_five" fill="white" layoutX="305.0" layoutY="85.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="one_six" fill="white" layoutX="360.0" layoutY="85.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="one_seven" fill="white" layoutX="415.0" layoutY="85.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+
+                        <Circle fx:id="two_zero" fill="white" layoutX="30.0" layoutY="140.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="two_one" fill="white" layoutX="85.0" layoutY="140.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="two_two" fill="white" layoutX="140.0" layoutY="140.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="two_three" fill="white" layoutX="195.0" layoutY="140.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="two_four" fill="white" layoutX="250.0" layoutY="140.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="two_five" fill="white" layoutX="305.0" layoutY="140.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="two_six" fill="white" layoutX="360.0" layoutY="140.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="two_seven" fill="white" layoutX="415.0" layoutY="140.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+
+                        <Circle fx:id="three_zero" fill="white" layoutX="30.0" layoutY="195.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="three_one" fill="white" layoutX="85.0" layoutY="195.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="three_two" fill="white" layoutX="140.0" layoutY="195.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="three_three" fill="white" layoutX="195.0" layoutY="195.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="three_four" fill="white" layoutX="250.0" layoutY="195.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="three_five" fill="white" layoutX="305.0" layoutY="195.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="three_six" fill="white" layoutX="360.0" layoutY="195.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="three_seven" fill="white" layoutX="415.0" layoutY="195.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+
+                        <Circle fx:id="four_zero" fill="white" layoutX="30.0" layoutY="250.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="four_one" fill="white" layoutX="85.0" layoutY="250.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="140.0" layoutY="250.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="195.0" layoutY="250.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="250.0" layoutY="250.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="305.0" layoutY="250.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="360.0" layoutY="250.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="415.0" layoutY="250.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+
+                        <Circle fill="white" layoutX="30.0" layoutY="305.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="85.0" layoutY="305.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="140.0" layoutY="305.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="195.0" layoutY="305.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="250.0" layoutY="305.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="305.0" layoutY="305.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="360.0" layoutY="305.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="415.0" layoutY="305.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+
+                        <Circle fill="white" layoutX="30.0" layoutY="360.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="85.0" layoutY="360.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="140.0" layoutY="360.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="195.0" layoutY="360.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="250.0" layoutY="360.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="305.0" layoutY="360.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="360.0" layoutY="360.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="415.0" layoutY="360.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+
+                        <Circle fill="white" layoutX="30.0" layoutY="415.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="85.0" layoutY="415.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="140.0" layoutY="415.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="195.0" layoutY="415.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="250.0" layoutY="415.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="305.0" layoutY="415.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="360.0" layoutY="415.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fill="white" layoutX="415.0" layoutY="415.0" radius="25" stroke="BLACK" strokeType="INSIDE" />
+                  <DialogPane layoutX="40.0" layoutY="169.0">
+                     <header>
+                        <TitledPane animated="false" text="end">
+                          <content>
+                            <TextField minHeight="0.0" minWidth="0.0" prefHeight="50.0" prefWidth="200.0" />
+                          </content>
+                        </TitledPane>
+                     </header></DialogPane>
+
+                    </children>
+                </Pane>
+                <Button layoutX="50.0" layoutY="22.0" mnemonicParsing="false" text="Button" />
+                <Button layoutX="105.0" layoutY="22.0" mnemonicParsing="false" text="Button" />
+                <Button layoutX="217.0" layoutY="22.0" mnemonicParsing="false" text="Button" />
+                <Button layoutX="273.0" layoutY="22.0" mnemonicParsing="false" text="Button" />
+                <Button layoutX="329.0" layoutY="22.0" mnemonicParsing="false" text="Button" />
+                <Button layoutX="386.0" layoutY="22.0" mnemonicParsing="false" text="Button" />
+                <Button layoutX="443.0" layoutY="22.0" mnemonicParsing="false" text="Button" />
+                <Button layoutX="161.0" layoutY="22.0" mnemonicParsing="false" text="Button" />
+            <Label layoutX="169.0" layoutY="500.0" prefHeight="50.0" prefWidth="200.0" />
+            </children>
+        </AnchorPane>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+      <RowConstraints />
+    </rowConstraints>
+</GridPane>
